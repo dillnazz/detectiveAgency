@@ -2,7 +2,7 @@ import React from 'react';
 import style from './form.module.scss';
 
 const Form = () => {
-  const title = "Akula";
+  const title = "Akula Group";
 
   return (
     <div className={style.container}>
