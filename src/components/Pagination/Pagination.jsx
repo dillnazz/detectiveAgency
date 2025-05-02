@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Review from "../ReviewCard/ReviewCard";
-import style from "./pagination.module.scss";
-import ArrowLeft from "../../assets/images/white_arrow_left.svg";
-import ArrowRight from "../../assets/images/white_arrow_right.svg";
-import ArrowDown from "../../assets/images/biege_arrow_down.svg";
+// import style from "./pagination.module.scss";
+// import ArrowLeft from "../../assets/images/white_arrow_left.svg";
+// import ArrowRight from "../../assets/images/white_arrow_right.svg";
+// import ArrowDown from "../../assets/images/biege_arrow_down.svg";
 import Post from "../Post/Post";
 
 const Pagination = (props) => {
@@ -56,80 +56,6 @@ const Pagination = (props) => {
             ></Post>
           )
         )}
-      </div>
-      <div className={style.pagination_wrapper}>
-        <button
-          className={
-            endNum === data.length || currentPage === 6
-              ? style.button_show_more_disabled
-              : style.button_show_more
-          }
-          disabled={endNum === data.length || currentPage === 6 ? true : false}
-          onClick={() => liveload()}
-        >
-          Показать еще 12
-          <img src={ArrowDown} alt=""></img>
-        </button>
-        <div className={style.numbers}>
-          {currentPage >= 1 && (
-            <button
-              disabled={currentPage === 1 ? true : false}
-              className={
-                currentPage === 1 ? style.arrow_disabled : style.numbers_arrows
-              }
-              onClick={() => handleClick(currentPage - 1)}
-            >
-              <img src={ArrowLeft} alt="" />
-            </button>
-          )}
-          <span
-            className={currentPage === 1 ? style.selected_page_number : ""}
-            onClick={() => handleClick(1)}
-          >
-            1
-          </span>
-          <span
-            className={currentPage === 2 ? style.selected_page_number : ""}
-            onClick={() => handleClick(2)}
-          >
-            2
-          </span>
-          <span
-            className={currentPage === 3 ? style.selected_page_number : ""}
-            onClick={() => handleClick(3)}
-          >
-            3
-          </span>
-          <span
-            className={currentPage === 4 ? style.selected_page_number : ""}
-            onClick={() => handleClick(4)}
-          >
-            4
-          </span>
-          <span
-            className={currentPage === 5 ? style.selected_page_number : ""}
-            onClick={() => handleClick(5)}
-          >
-            5
-          </span>
-          <span
-            className={currentPage === 6 ? style.selected_page_number : ""}
-            onClick={() => handleClick(6)}
-          >
-            6
-          </span>
-          {currentPage <= totalPages && (
-            <button
-              onClick={() => handleClick(currentPage + 1)}
-              className={
-                currentPage === 6 ? style.arrow_disabled : style.numbers_arrows
-              }
-              disabled={currentPage === 6 ? true : false}
-            >
-              <img src={ArrowRight} alt="" />
-            </button>
-          )}
-        </div>
       </div>
     </>
   );

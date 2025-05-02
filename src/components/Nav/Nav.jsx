@@ -98,6 +98,20 @@ const Nav = ({ open, closeMenu }) => {
               </div>
             </li>
           </Link>
+          <Link to="/services">
+            <li
+              className={style.li}
+              onClick={() => {
+                Check();
+                closeMenu();
+              }}
+            >
+              Услуги{" "}
+              <div className={style.right}>
+                <Vectorright />
+              </div>
+            </li>
+          </Link>
           <Link to="/reviews">
             <li
               className={style.li}
@@ -136,14 +150,14 @@ const Nav = ({ open, closeMenu }) => {
               </div>
             </div>
             <a
-              href="https://t.me/pershin_detective"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
               <img src={Telegram} alt="Telegram" className={style.telegram} />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=79686868685&text=Доброго%20времени%20суток!"
+              href=""
               target="_blank"
               rel="noreferrer"
             >

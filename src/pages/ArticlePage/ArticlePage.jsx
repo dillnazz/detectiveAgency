@@ -448,14 +448,14 @@ export default function ArticlePage(props) {
         </section>
 
         <section className={style.section_autor}>
-          <img src={FormPhoto} alt="director" className={style.photo} />
+          {/* <img src={FormPhoto} alt="director" className={style.photo} />
           <p className={style.textautor}>
             Автор статьи
             <br />
             <span className={style.textautordirector}>
               Першин Кирилл Олегович
             </span>
-          </p>
+          </p> */}
         </section>
 
         <section className={style.section_socnet}>
@@ -501,16 +501,16 @@ export default function ArticlePage(props) {
 
               <a
                 className={style.bloknet}
-                href="https://vk.com/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={Vk} alt="Vk" className={style.socnet} />
+                <img src={Vk} alt="" className={style.socnet} />
               </a>
 
               <a
                 className={style.bloknet}
-                href="https://es-es.facebook.com/"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >

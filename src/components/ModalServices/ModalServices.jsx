@@ -82,22 +82,13 @@ export default function ModalServices(props) {
                 <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Проверить на верность</p>
                 </Link>
-                <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Провокация измен</p>
-                </Link>
-                <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Слежка за женой</p>
-                </Link>
-                <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Слежка за мужем</p>
-                </Link>
               </section>
 
               <section className={style.blokbinoculars}>
                 <Binoculars alt="Binoculars" className={style.img} />
                 <h2 className={style.h2}>Расследования</h2>
                 <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Журналистское расследование</p>
+                  <p className={style.text}>Раследование резонанстных дел</p>
                 </Link>
                 <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Расследование убийств</p>
@@ -128,9 +119,6 @@ export default function ModalServices(props) {
                 {showMore && (
                   <div>
                     <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Поиск родственников ВОВ</p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
                       <p className={style.text}>Розыск несовершеннолетних</p>
                     </Link>
                     <Link to="/" onClick={() => Check()}>
@@ -145,31 +133,12 @@ export default function ModalServices(props) {
                     </Link>
                     <Link to="/" onClick={() => Check()}>
                       <p className={style.text}>
-                        Поиск людей по электронному адесу
-                      </p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>
                         Поиск родственников в Израиле
                       </p>
                     </Link>
                     <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Розыск людей по телефону</p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
                       <p className={style.text}>
                         Поиск имущества в банкротстве
-                      </p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Поиск родственников по ДНК</p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>Поиск человека по IP</p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
-                      <p className={style.text}>
-                        Поиск биологических родителей
                       </p>
                     </Link>
                   </div>
@@ -186,16 +155,7 @@ export default function ModalServices(props) {
                   <p className={style.text}>Поиск прослушки в квартире</p>
                 </Link>
                 <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Обратиться в СМИ</p>
-                </Link>
-                <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Выход из секты</p>
-                </Link>
-                <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Помощь и защита при шантаже</p>
-                </Link>
-                <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Защита от буллинга</p>
                 </Link>
               </section>
 

@@ -11,6 +11,7 @@ import { ReactComponent as Search } from "../../assets/images/services-search.sv
 import { ReactComponent as Protect } from "../../assets/images/services-protect.svg";
 import { ReactComponent as Journalism } from "../../assets/images/services-journalism.svg";
 import { ReactComponent as ArrowDown } from "../../assets/images/biege_arrow_down.svg";
+import Services from "../../components/Services/Services.jsx";
 
 export default function ServicesPage() {
   const [showMore, setShowMore] = useState(false);
@@ -92,6 +93,7 @@ export default function ServicesPage() {
             </Link> */}
           </div>
         </section>
+        <Services/>
         <section className={style.catalog}>
           <section className={style.blokinfo}>
             <Info alt="Info" className={style.img} />
@@ -100,7 +102,10 @@ export default function ServicesPage() {
               <p className={style.text}>Досье на человека</p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Компромат на человека</p>
+              <p className={style.text}>Пробить геолокацию</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Проверка запрета на выезд</p>
             </Link>
             <Link to="/">
               <p className={style.text}>Организация слежки</p>
@@ -109,9 +114,6 @@ export default function ServicesPage() {
               <p className={style.text}>
                 Пробить геолокацию по номеру телефона
               </p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Проверка запрета на выезд</p>
             </Link>
             {showMore2 && (
               <div>
@@ -130,30 +132,18 @@ export default function ServicesPage() {
 
           <section className={style.blokfamily}>
             <Family alt="Family" className={style.img} />
-            <h2 className={style.h2}>Семейные вопросы</h2>
+            {/* <h2 className={style.h2}>Семейные вопросы</h2> */}
             <Link to="/">
               <p className={style.text}>Проверка образ жизни детей</p>
             </Link>
             <Link to="/">
               <p className={style.text}>Проверить на верность</p>
             </Link>
-            <Link to="/">
-              <p className={style.text}>Провокация измен</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Слежка за женой</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Слежка за мужем</p>
-            </Link>
           </section>
 
           <section className={style.blokbinoculars}>
             <Binoculars alt="Binoculars" className={style.img} />
             <h2 className={style.h2}>Расследования</h2>
-            <Link to="/">
-              <p className={style.text}>Журналистское расследование</p>
-            </Link>
             <Link to="/">
               <p className={style.text}>Расследование убийств</p>
             </Link>
@@ -164,27 +154,9 @@ export default function ServicesPage() {
 
           <section className={style.bloksearch}>
             <Search alt="Search" className={style.img} />
-            <h2 className={style.h2}>Розыск</h2>
-            <Link to="/">
-              <p className={style.text}>Поиск родственников</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Розыск имущества</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Поиск человека по адресу</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Розыск за границей</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Частный розыск</p>
-            </Link>
             {showMore && (
               <div>
-                <Link to="/">
-                  <p className={style.text}>Поиск родственников ВОВ</p>
-                </Link>
+                <h2 className={style.h2}>Розыск</h2>
                 <Link to="/">
                   <p className={style.text}>Розыск несовершеннолетних</p>
                 </Link>
@@ -195,27 +167,7 @@ export default function ServicesPage() {
                   <p className={style.text}>Поиск пропавших родственников</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>
-                    Поиск людей по электронному адесу
-                  </p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск родственников в Израиле</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Розыск людей по телефону</p>
-                </Link>
-                <Link to="/">
                   <p className={style.text}>Поиск имущества в банкротстве</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск родственников по ДНК</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск человека по IP</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск биологических родителей</p>
                 </Link>
               </div>
             )}
@@ -231,16 +183,7 @@ export default function ServicesPage() {
               <p className={style.text}>Поиск прослушки в квартире</p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Обратиться в СМИ</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Выход из секты</p>
-            </Link>
-            <Link to="/">
               <p className={style.text}>Помощь и защита при шантаже</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Защита от буллинга</p>
             </Link>
           </section>
 
@@ -277,9 +220,6 @@ export default function ServicesPage() {
               <div className={style.bloktext}>
                 <Link to="/">
                   <p className={style.text}>Досье на человека</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Компромат на человека</p>
                 </Link>
                 <Link to="/">
                   <p className={style.text}>Организация слежки</p>
@@ -343,9 +283,6 @@ export default function ServicesPage() {
                   <p className={style.text}>Частный розыск</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Поиск родственников ВОВ</p>
-                </Link>
-                <Link to="/">
                   <p className={style.text}>Розыск несовершеннолетних</p>
                 </Link>
                 <Link to="/">
@@ -355,24 +292,10 @@ export default function ServicesPage() {
                   <p className={style.text}>Поиск пропавших родственников</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>
-                    Поиск людей по электронному адесу
-                  </p>
-                </Link>
-                <Link to="/">
                   <p className={style.text}>Поиск родственников в Израиле</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Розыск людей по телефону</p>
-                </Link>
-                <Link to="/">
                   <p className={style.text}>Поиск имущества в банкротстве</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск родственников по ДНК</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Поиск человека по IP</p>
                 </Link>
                 <Link to="/">
                   <p className={style.text}>Поиск биологических родителей</p>
@@ -412,15 +335,6 @@ export default function ServicesPage() {
                 <Link to="/">
                   <p className={style.text}>Проверить на верность</p>
                 </Link>
-                <Link to="/">
-                  <p className={style.text}>Провокация измен</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Слежка за женой</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Слежка за мужем</p>
-                </Link>
               </div>
             )}
           </div>
@@ -454,16 +368,7 @@ export default function ServicesPage() {
                   <p className={style.text}>Поиск прослушки в квартире</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Обратиться в СМИ</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Выход из секты</p>
-                </Link>
-                <Link to="/">
                   <p className={style.text}>Помощь и защита при шантаже</p>
-                </Link>
-                <Link to="/">
-                  <p className={style.text}>Защита от буллинга</p>
                 </Link>
               </div>
             )}
@@ -495,7 +400,7 @@ export default function ServicesPage() {
             {showItems5 && (
               <div className={style.bloktext}>
                 <Link to="/">
-                  <p className={style.text}>Журналистское расследование</p>
+                  <p className={style.text}>Раследование резонанстных дел</p>
                 </Link>
                 <Link to="/">
                   <p className={style.text}>Расследование убийств</p>

@@ -18,7 +18,7 @@ export default function Footer() {
               <div className={style.section}>
                 <img src={Location} alt="Location" className={style.icon} />
                 <p className={style.adress}>
-                  г. Бишкек, Ул. Ахунбаева 78
+                  г. Бишкек
                 </p>
               </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
 
               <div className={style.section}>
                 <img src={Email} alt="Email" className={style.icon} />
-                <p className={style.p}>Pershin-detective@yandex.ru</p>
+                <p className={style.p}>swedenkalmar@gmail.com</p>
               </div>
             </div>
 
@@ -52,16 +52,10 @@ export default function Footer() {
           <div className={style.blokmain2}>
             <p className={style.title}>Для бизнеса</p>
             <Link to="/">
-              <p className={style.p}>Бизнес войны</p>
-            </Link>
-            <Link to="/">
-              <p className={style.p}>Сбор информации</p>{" "}
+              <p className={style.p}>Сбор информации для деловых переговоров</p>{" "}
             </Link>
             <Link to="/">
               <p className={style.p}>Проверки</p>{" "}
-            </Link>
-            <Link to="/">
-              <p className={style.p}>Розыск</p>{" "}
             </Link>
             <Link to="/">
               <p className={style.p}>Взыскания долгов</p>{" "}
@@ -83,16 +77,10 @@ export default function Footer() {
               <p className={style.p}>Сбор информации</p>
             </Link>
             <Link to="/">
-              <p className={style.p}>Семейные вопросы</p>
-            </Link>
-            <Link to="/">
               <p className={style.p}>Розыск</p>
             </Link>
             <Link to="/">
               <p className={style.p}>Защита</p>
-            </Link>
-            <Link to="/">
-              <p className={style.p}>Журналистика</p>
             </Link>
             <Link to="/">
               <p className={style.p}>Расследования</p>

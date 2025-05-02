@@ -57,11 +57,6 @@
         padding-bottom: 9px;
         cursor: pointer;
         position: relative;
-
-        // img {
-        //   opacity: 0.4;
-        //   transition-duration: 0.3s;
-        // }
       }
 
       li::after {
@@ -75,23 +70,6 @@
         transition: background 0.3s;
       }
 
-      // li:hover {
-      //   color: #fff;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
-
-      // .services__person {
-      //   color: #fff;
-      //   border-bottom: 1px solid rgba(255, 255, 255);
-      //   padding-bottom: 9px;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
 
       a {
         text-decoration: none;
@@ -140,6 +118,7 @@
 
   .buttonmobile {
     display: none;
+      width: 200px;
   }
 
   .services__header {
@@ -172,10 +151,6 @@
         cursor: pointer;
         position: relative;
 
-        // img {
-        //   opacity: 0.4;
-        //   transition-duration: 0.3s;
-        // }
       }
 
       li::after {
@@ -189,23 +164,6 @@
         transition: background 0.3s;
       }
 
-      // li:hover {
-      //   color: #fff;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
-
-      // .services__person {
-      //   color: #fff;
-      //   border-bottom: 1px solid rgba(255, 255, 255);
-      //   padding-bottom: 9px;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
 
       a {
         text-decoration: none;
@@ -263,7 +221,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    // margin-bottom: 10px;
 
     ul {
       margin: 10px 0px;
@@ -276,23 +233,6 @@
       align-items: center;
       gap: 40px;
 
-      // li {
-      //   box-sizing: border-box;
-      //   display: flex;
-      //   align-items: center;
-      //   justify-content: center;
-      //   gap: 16px;
-      //   transition-duration: 0.3s;
-      //   padding-bottom: 9px;
-      //   cursor: pointer;
-      //   position: relative;
-
-      //   img {
-      //     opacity: 0.4;
-      //     transition-duration: 0.3s;
-      //   }
-      // }
-
       li::after {
         content: "";
         background: transparent;
@@ -304,23 +244,6 @@
         transition: background 0.3s;
       }
 
-      // li:hover {
-      //   color: #fff;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
-
-      // .services__person {
-      //   color: #fff;
-      //   border-bottom: 1px solid rgba(255, 255, 255);
-      //   padding-bottom: 9px;
-
-      //   img {
-      //     opacity: 1;
-      //   }
-      // }
 
       a {
         text-decoration: none;

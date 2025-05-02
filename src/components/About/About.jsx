@@ -28,7 +28,7 @@ export default function About() {
           </p>
         </div>
         <div className={style.right}>
-          <img src={Img} alt="img" className={style.img} />
+          {/* <img src={Img} alt="img" className={style.img} /> */}
           <div className={style.about}>
             <div className={style.blok}>
               <p className={style.number}>1</p>

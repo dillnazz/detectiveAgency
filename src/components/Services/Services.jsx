@@ -2,6 +2,7 @@ import style from "./services.module.scss";
 import { Link } from "react-router-dom";
 import cards from "../../components/Card/cards";
 import Card from "../../components/Card/Card.jsx";
+
 import Vectorright from "../../assets/svg/Vectorright.jsx";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";

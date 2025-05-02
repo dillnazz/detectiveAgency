@@ -35,7 +35,7 @@ function Header() {
       <header ref={headerRef}>
         <div className={style.header}>
           <Link to="/React-Detective">
-            <img src={Logo} alt="logo" className={style.logo} />
+            <img src='https://pngimg.com/d/shark_PNG18820.png' alt="logo" className={style.logo} />
           </Link>
           <Burger />
           <div className={style.container}>
@@ -47,14 +47,14 @@ function Header() {
               </div>
             </div>
             <a
-              href="https://t.me/pershin_detective"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
               <img src={Telegram} alt="Telegram" className={style.telegram} />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=79686868685&text=Доброго%20времени%20суток!"
+              href=""
               target="_blank"
               rel="noreferrer"
             >

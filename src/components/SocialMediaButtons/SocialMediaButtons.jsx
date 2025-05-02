@@ -24,14 +24,14 @@ const SocialMediaButtons = () => {
       </button>
       <div className={`social-buttons ${showButtons ? "show" : "hide"}`}>
         <a
-          href="https://t.me/pershin_detective"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
           <img src={Telegram} alt="Telegram" className="socmedia_telegram" />
         </a>
         <a
-          href="https://api.whatsapp.com/send?phone=79686868685&text=Доброго%20времени%20суток!"
+          href=""
           target="_blank"
           rel="noreferrer"
         >

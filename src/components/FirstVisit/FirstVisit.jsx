@@ -17,15 +17,15 @@ export default function FirstVisit() {
                 Личное общение в офисе компании
               </p>
               <ul className={style.ul}>
-                <li>Не требуется никаких документов</li>
+                {/* <li>Не требуется никаких документов</li> */}
                 <li>Возможность использовать маску для сохранения анонимности</li>
-                <li>Отсутствие подписания каких-либо бумаг</li>
+                {/* <li>Отсутствие подписания каких-либо бумаг</li> */}
                 <li>Полная конфиденциальность, без записи на аудио или видео</li>
               </ul>
             </div>
           </div>
 
-          <div className={style.blok}>
+          {/* <div className={style.blok}>
             <img src={Users} alt="users" className={style.img} />
             <div className={style.blokinside}>
               <p className={style.title}>Консультация через доверенное лицо</p>
@@ -37,7 +37,7 @@ export default function FirstVisit() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className={style.blok}>
             <img src={Car} alt="car" className={style.img} />
@@ -52,7 +52,7 @@ export default function FirstVisit() {
             </div>
           </div>
 
-          <div className={style.blok}>
+          {/* <div className={style.blok}>
             <img src={VideoChat} alt="videoChat" className={style.img} />
             <div className={style.blokinside}>
               <p className={style.title}>Виртуальная консультация</p>
@@ -62,7 +62,7 @@ export default function FirstVisit() {
                 <li>Использование сторонних сервисов и VPN для максимальной безопасности</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

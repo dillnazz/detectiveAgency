@@ -16,7 +16,7 @@ export default function HowToReachUs(props) {
         <div className={style.reach_us_links}>
           <a
             className={style.reach_us_link}
-            href="https://t.me/pershin_detective"
+            href=""
             target="_blank"
             rel="noreferrer"
           >
@@ -24,7 +24,7 @@ export default function HowToReachUs(props) {
           </a>
           <a
             className={style.reach_us_link}
-            href="https://api.whatsapp.com/send?phone=79686868685&text=Доброго%20времени%20суток!"
+            href=""
             target="_blank"
             rel="noreferrer"
           >

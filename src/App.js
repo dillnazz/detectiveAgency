@@ -29,6 +29,7 @@ function App() {
         <Route exact path="/reviews" element={<Reviews />} />
         <Route exact path="/blog/article1" element={<ArticlePage />} />
         <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/services" element={<ServicesPage/> } />
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />

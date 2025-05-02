@@ -1,22 +1,26 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import style from './form.module.scss';
 
 const Form = () => {
-  const title = "Akula Group";
+  // const title = "Акула";
 
   return (
     <div className={style.container}>
       <h1 className={style.title}>
-        {title.split('').map((letter, index) => (
+        {/* {title.split('').map((letter, index) => (
           <span key={index}>{letter}</span>
-        ))}
+        ))} */}
+        Акула Групп KG
       </h1>
       <p className={style.text}>
-        Частное детективное агентство. Всегда готовы оказать вам качественную услугу
+        Частная детективная деятельность. Готовы предоставить вам качественные услуги
       </p>
+      <Link to="/contacts">
       <button className={style.button}>
         Связаться
       </button>
+      </Link>
     </div>
   );
 }
