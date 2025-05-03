@@ -32,6 +32,11 @@
     align-items: center;
     gap: 48px;
   }
+  .right {
+    flex-direction: column; // добавь это
+    align-items: center;    // или flex-start в зависимости от выравнивания
+    gap: 32px;
+  }
 
   .h3 {
     text-align: left;
@@ -46,6 +51,11 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
+  }
+  .right {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
   }
 
   .h3 {
@@ -74,6 +84,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+
 }
 
 .ul {
@@ -119,7 +130,7 @@
 .p {
   color: #484848;
   font-family: Geologica;
-  font-size: 16px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;

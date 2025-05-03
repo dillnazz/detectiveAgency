@@ -18,16 +18,6 @@ function MainBG() {
         </div>
       </section>
       <div className={style.button_mobile}>
-        <button
-          type="submit"
-          className={style.button}
-          onClick={() => setButtonPopup(true)}
-        >
-          Оставить заявку
-          <div className={style.vector}>
-            <Vectorright />
-          </div>
-        </button>
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <SecondModal isMainMobile={true} />
         </Popup>
