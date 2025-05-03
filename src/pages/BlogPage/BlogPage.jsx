@@ -1,14 +1,60 @@
+import Safety from "../../components/Safety/Safety";
 import style from "./blogpage.module.scss";
-import Pagination from "../../components/Pagination/Pagination";
-import posts from "../../components/Post/posts";
-import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
+import { FaUserSecret, FaSearch, FaShieldAlt, FaUsers } from "react-icons/fa";
 
-export default function BlogPage() {
+export default function AboutPage() {
   return (
-    <>
-      <main className={style.page_container}>
-      О нас
-      </main>
-    </>
+    <div className={style.about}>
+      <section className={style.hero}>
+        <img
+          src="https://st.depositphotos.com/3280405/4479/i/450/depositphotos_44792795-stock-photo-business-people-showing-thumbs-up.jpg"
+          alt="Наша команда"
+        />
+        <p>
+          О компании
+          Акула Групп — это ведущая компания, предоставляющая широкий спектр услуг в области расследований, корпоративной и коммерческой безопасности. Мы применяем передовые методы и технологии для решения самых сложных задач, связанных с корпоративным шпионажем, защитой интересов бизнеса, расследованием семейных дел и решениями нестандартных ситуаций. Наша команда состоит из профессионалов с многолетним опытом работы, и каждый проект для нас — это индивидуальный подход, с акцентом на эффективность и конфиденциальность.
+
+          Руководитель компании, опытный специалист в области безопасности, активно делится своим опытом и рекомендациями через платформы социальных сетей и блоги. Он также является членом ряда международных ассоциаций, что подтверждает высокий уровень доверия и репутации нашей компании. Мы всегда опираемся на проверенные факты и отчетность, исключая субъективные оценки, что делает нас надежным партнером для наших клиентов.
+        </p>
+      </section>
+
+
+      <section className={style.services}>
+        <h2>Наши услуги</h2>
+        <div className={style.cards}>
+          <div className={style.card}>
+            <FaSearch />
+            <h3>Наблюдение</h3>
+            <p>Детальное слежение за объектом с фото- и видеоотчётом.</p>
+          </div>
+          <div className={style.card}>
+            <FaUserSecret />
+            <h3>Проверка на измену</h3>
+            <p>Собираем факты, которые помогут принять решение.</p>
+          </div>
+          <div className={style.card}>
+            <FaShieldAlt />
+            <h3>Защита бизнеса</h3>
+            <p>Проверка сотрудников и выявление утечек информации.</p>
+          </div>
+          <div className={style.card}>
+            <FaUsers />
+            <h3>Поиск людей</h3>
+            <p>Оперативный розыск пропавших или скрывающихся лиц.</p>
+          </div>
+        </div>
+      </section>
+      <Safety />
+
+      <section className={style.reasons}>
+        <h2>Почему выбирают нас</h2>
+        <ul>
+          <li>100% конфиденциальность</li>
+          <li>Оперативность и точность</li>
+          <li>Профессиональная команда</li>
+          <li>Современные технологии</li>
+        </ul>
+      </section>
+    </div>
   );
 }

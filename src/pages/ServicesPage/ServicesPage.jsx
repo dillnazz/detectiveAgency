@@ -132,7 +132,7 @@ export default function ServicesPage() {
 
           <section className={style.blokfamily}>
             <Family alt="Family" className={style.img} />
-            {/* <h2 className={style.h2}>Семейные вопросы</h2> */}
+            <h2 className={style.h2}>Семейные вопросы</h2>
             <Link to="/">
               <p className={style.text}>Проверка образ жизни детей</p>
             </Link>

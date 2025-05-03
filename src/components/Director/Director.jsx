@@ -1,4 +1,5 @@
 import style from "./director.module.scss";
+import { Link } from "react-router-dom";
 import WorkHistory from "../../assets/images/work-history.svg";
 import Vectorright from "../../assets/svg/Vectorright.jsx";
 import Popup from "../Popup/Popup.jsx";
@@ -27,6 +28,7 @@ export default function Director() {
 
             Камил Ийманбекович регулярно делится своими знаниями и опытом через экспертные статьи, обучающие семинары и выступления в медиа, помогая людям лучше ориентироваться в вопросах личной и корпоративной безопасности.
           </p>
+          <Link to="/contacts">
           <button
             type="submit"
             className={style.button}
@@ -37,6 +39,7 @@ export default function Director() {
               <Vectorright />
             </div>
           </button>
+          </Link>
         </div>
 
         <div className={style.background}></div>

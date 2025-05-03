@@ -11,7 +11,7 @@ const Form = () => {
         {/* {title.split('').map((letter, index) => (
           <span key={index}>{letter}</span>
         ))} */}
-        Акула Групп KG
+        Акула Групп
       </h1>
       <p className={style.text}>
         Частная детективная деятельность. Готовы предоставить вам качественные услуги
