@@ -50,24 +50,27 @@ export default function Footer() {
           </div>
 
           <div className={style.blokmain2}>
-            <p className={style.title}>Для бизнеса</p>
+            <p className={style.title}>Для юридических лиц</p>
+            <Link to="/">
+              <p className={style.p}>Сбор сведений по гражданским, и по уголовным делам</p>{" "}
+            </Link>
             <Link to="/">
               <p className={style.p}>Сбор информации для деловых переговоров</p>{" "}
             </Link>
             <Link to="/">
-              <p className={style.p}>Проверки</p>{" "}
+              <p className={style.p}>Выявление некредитоспособных или ненадежных деловых партнеров</p>{" "}
             </Link>
             <Link to="/">
-              <p className={style.p}>Взыскания долгов</p>{" "}
+              <p className={style.p}>Проверка сотрудников компании</p>{" "}
             </Link>
             <Link to="/">
-              <p className={style.p}>Разведка</p>{" "}
+              <p className={style.p}>Сбор информации о компании</p>{" "}
             </Link>
             <Link to="/">
-              <p className={style.p}>Защита и безопасность</p>{" "}
+              <p className={style.p}>Поиск пропавшего груза</p>{" "}
             </Link>
             <Link to="/">
-              <p className={style.p}>Расследования</p>{" "}
+              <p className={style.p}>Контрнаблюдение</p>{" "}
             </Link>
           </div>
 

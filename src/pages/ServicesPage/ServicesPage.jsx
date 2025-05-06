@@ -202,11 +202,11 @@ export default function ServicesPage() {
                 от прослушки и жучков.
                 </p>
             </Link>
-            <Link to="/">
+            {/* <Link to="/">
               <p className={style.text}>
                 Обеспечение конфиденциальности
                 и личный досмотр участников</p>
-            </Link>
+            </Link> */}
           </section>
 
 
