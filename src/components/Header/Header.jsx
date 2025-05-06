@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import Burger from "../Nav/Burger.jsx";
-import Logo from "../../assets/images/logo-akula.png";
+// import Logo from "../../assets/images/logo-akula.png";
 import Phone from "../../assets/images/phone.svg";
 import Telegram from "../../assets/images/telegram.svg";
 import WhatsApp from "../../assets/images/whatsapp.svg";
@@ -34,9 +34,9 @@ function Header() {
     <>
       <header ref={headerRef}>
         <div className={style.header}>
-          <Link to="/React-Detective">
+          {/* <Link to="/React-Detective">
             <img src='https://pngimg.com/d/shark_PNG18820.png' alt="logo" className={style.logo} />
-          </Link>
+          </Link> */}
           <Burger />
           <div className={style.container}>
             <div className={style.container_medium}>

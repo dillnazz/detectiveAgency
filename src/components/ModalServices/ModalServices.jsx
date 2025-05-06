@@ -42,6 +42,12 @@ export default function ModalServices(props) {
                   <p className={style.text}>Досье на человека</p>
                 </Link>
                 <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
+                </Link>
+                 <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
+                </Link>
+                <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Компромат на человека</p>
                 </Link>
                 <Link to="/" onClick={() => Check()}>
@@ -51,13 +57,10 @@ export default function ModalServices(props) {
                   onClick={() => Check()}
                   to="/services_for_individuals/geolocation"
                 >
-                  <p className={style.text}>
-                    Пробить геолокацию по номеру телефона
-                  </p>
                 </Link>
-                <Link to="/" onClick={() => Check()}>
+                {/* <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Проверка запрета на выезд</p>
-                </Link>
+                </Link> */}
                 {showMore2 && (
                   <div>
                     <Link to="/" onClick={() => Check()}>
@@ -161,10 +164,10 @@ export default function ModalServices(props) {
 
               <section className={style.blokjournalism}>
                 <Journalism alt="Journalism" className={style.img} />
-                <h2 className={style.h2}>Журналистика</h2>
+                {/* <h2 className={style.h2}>Журналистика</h2>
                 <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Заказать расследование</p>
-                </Link>
+                </Link> */}
               </section>
             </div>
           </Scrollbar>

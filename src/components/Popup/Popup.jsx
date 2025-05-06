@@ -1,7 +1,7 @@
 import style from "./popup.module.scss"
 import { ReactComponent as Cross } from "../../assets/images/icon-white-cross.svg";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo.svg";
+// import Logo from "../../assets/images/logo.svg";
 
 export default function Popup(props) {
 
@@ -16,9 +16,9 @@ export default function Popup(props) {
         <div className={style.popup_inner}>
           <div className={style.popup_header} >
             <button className={style.close_btn} onClick={() => props.setTrigger(false)}><Cross />Закрыть</button>
-            <Link to="/" className={style.popup_logo}>
+            {/* <Link to="/" className={style.popup_logo}>
               <img src={Logo} alt="logo" className={style.popup_img}/>
-            </Link>
+            </Link> */}
           </div>
           {props.children}
         </div>

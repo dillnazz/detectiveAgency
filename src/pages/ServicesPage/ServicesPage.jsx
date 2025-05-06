@@ -11,7 +11,7 @@ import { ReactComponent as Search } from "../../assets/images/services-search.sv
 import { ReactComponent as Protect } from "../../assets/images/services-protect.svg";
 import { ReactComponent as Journalism } from "../../assets/images/services-journalism.svg";
 import { ReactComponent as ArrowDown } from "../../assets/images/biege_arrow_down.svg";
-import Services from "../../components/Services/Services.jsx";
+// import Services from "../../components/Services/Services.jsx";
 
 export default function ServicesPage() {
   const [showMore, setShowMore] = useState(false);
@@ -93,7 +93,7 @@ export default function ServicesPage() {
             </Link> */}
           </div>
         </section>
-        <Services/>
+        {/* <Services/> */}
         <section className={style.catalog}>
           <section className={style.blokinfo}>
             <Info alt="Info" className={style.img} />
@@ -102,18 +102,10 @@ export default function ServicesPage() {
               <p className={style.text}>Досье на человека</p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Пробить геолокацию</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Проверка запрета на выезд</p>
+              <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
             </Link>
             <Link to="/">
               <p className={style.text}>Организация слежки</p>
-            </Link>
-            <Link to="/services_for_individuals/geolocation">
-              <p className={style.text}>
-                Пробить геолокацию по номеру телефона
-              </p>
             </Link>
             {showMore2 && (
               <div>
@@ -187,13 +179,13 @@ export default function ServicesPage() {
             </Link>
           </section>
 
-          <section className={style.blokjournalism}>
+          {/* <section className={style.blokjournalism}>
             <Journalism alt="Journalism" className={style.img} />
             <h2 className={style.h2}>Журналистика</h2>
             <Link to="/">
               <p className={style.text}>Заказать расследование</p>
             </Link>
-          </section>
+          </section> */}
         </section>
         <section className={style.catalog_mobile}>
           <div className={style.blok}>
@@ -222,16 +214,14 @@ export default function ServicesPage() {
                   <p className={style.text}>Досье на человека</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Организация слежки</p>
-                </Link>
-                <Link to="/services_for_individuals/geolocation">
-                  <p className={style.text}>
-                    Пробить геолокацию по номеру телефона
-                  </p>
+                  <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
                 </Link>
                 <Link to="/">
-                  <p className={style.text}>Проверка запрета на выезд</p>
+                  <p className={style.text}>Организация слежки</p>
                 </Link>
+                {/* <Link to="/">
+                  <p className={style.text}>Проверка запрета на выезд</p>
+                </Link> */}
                 <Link to="/">
                   <p className={style.text}>Проверка кредитной истории</p>
                 </Link>
@@ -412,7 +402,7 @@ export default function ServicesPage() {
             )}
           </div>
 
-          <div className={style.blok}>
+          {/* <div className={style.blok}>
             <div className={style.row}>
               <div className={style.bloksmall}>
                 <Journalism
@@ -442,7 +432,7 @@ export default function ServicesPage() {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
         </section>
       </main>
     </>
