@@ -109,12 +109,12 @@ export default function ServicesPage() {
             </Link>
             {showMore2 && (
               <div>
-                <Link to="/">
+                {/* <Link to="/">
                   <p className={style.text}>Проверка кредитной истории</p>
-                </Link>
-                <Link to="/">
+                </Link> */}
+                {/* <Link to="/">
                   <p className={style.text}>Проверка кредитной истории</p>
-                </Link>
+                </Link> */}
               </div>
             )}
             <button onClick={handleShowMore2} className={style.button}>
@@ -222,12 +222,12 @@ export default function ServicesPage() {
                 {/* <Link to="/">
                   <p className={style.text}>Проверка запрета на выезд</p>
                 </Link> */}
-                <Link to="/">
+                {/* <Link to="/">
                   <p className={style.text}>Проверка кредитной истории</p>
-                </Link>
-                <Link to="/">
+                </Link> */}
+                {/* <Link to="/">
                   <p className={style.text}>Проверка кредитной истории</p>
-                </Link>
+                </Link> */}
               </div>
             )}
           </div>

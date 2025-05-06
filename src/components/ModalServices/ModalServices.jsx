@@ -63,12 +63,12 @@ export default function ModalServices(props) {
                 </Link> */}
                 {showMore2 && (
                   <div>
-                    <Link to="/" onClick={() => Check()}>
+                    {/* <Link to="/" onClick={() => Check()}>
                       <p className={style.text}>Проверка кредитной истории</p>
-                    </Link>
-                    <Link to="/" onClick={() => Check()}>
+                    </Link> */}
+                    {/* <Link to="/" onClick={() => Check()}>
                       <p className={style.text}>Проверка кредитной истории</p>
-                    </Link>
+                    </Link> */}
                   </div>
                 )}
                 <button onClick={handleShowMore2} className={style.button}>
