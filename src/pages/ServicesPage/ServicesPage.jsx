@@ -81,10 +81,10 @@ export default function ServicesPage() {
           <Breadcrumbs />
           <h1 className={style.h1}>Услуги</h1>
           <div className={style.services__tabs}>
-            <div className={style.tabs__person}>
+            {/* <div className={style.tabs__person}>
               <Person alt="person" className={style.icon} />
               Для частных лиц
-            </div>
+            </div> */}
             {/* <Link to="/services_for_business">
               <div className={style.tabs__business}>
                 <Business alt="small suitcase" className={style.icon} />
@@ -96,7 +96,11 @@ export default function ServicesPage() {
         {/* <Services/> */}
         <section className={style.catalog}>
           <section className={style.blokinfo}>
-            <Info alt="Info" className={style.img} />
+            <div className={style.tabs__person}>
+              <Person alt="person" className={style.icon} />
+              Для частных лиц
+            </div>
+            {/* <Info alt="Info" className={style.img} /> */}
             <h2 className={style.h2}>Сбор информации</h2>
             <Link to="/">
               <p className={style.text}>Досье на человека</p>
@@ -105,7 +109,19 @@ export default function ServicesPage() {
               <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
             </Link>
             <Link to="/">
+              <p className={style.text}>Cбор информации о человеке</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Наблюдение за подростком</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Установление образа жизни человека</p>
+            </Link>
+            <Link to="/">
               <p className={style.text}>Организация слежки</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Поиск без вести пропавших граждан</p>
             </Link>
             {showMore2 && (
               <div>
@@ -122,22 +138,72 @@ export default function ServicesPage() {
             </button>
           </section>
 
+
+          <section className={style.blokfamily}>
+            {/* <Family alt="Family" className={style.img} /> */}
+            <div className={style.tabs__person}>
+              <Person alt="person" className={style.icon} />
+              Для юридических лиц
+            </div>
+            <h2 className={style.h2}>Сбор информации</h2>
+            <Link to="/">
+              <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Сбор информации для деловых переговоров</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Выявление некредитоспособных или ненадежных деловых партнеров</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Проверка сотрудников компании</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Сбор информации о компании </p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Поиск пропавшего груза</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Контрнаблюдение</p>
+            </Link>
+          </section>
+
           <section className={style.blokfamily}>
             <Family alt="Family" className={style.img} />
             <h2 className={style.h2}>Семейные вопросы</h2>
             <Link to="/">
-              <p className={style.text}>Проверка образ жизни детей</p>
+              <p className={style.text}>Проверка образа жизни ребенка </p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Проверить на верность</p>
+              <p className={style.text}>Проверка на верность</p>
             </Link>
           </section>
+          
+          <section className={style.blokprotect}>
+            <Protect alt="Protect" className={style.img} />
+            <h2 className={style.h2}>Защита</h2>
+            <Link to="/">
+              <p className={style.text}>Поиск прослушки в квартире</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Помощь и защита при шантаже</p>
+            </Link>
+          </section>
+
+
 
           <section className={style.blokbinoculars}>
             <Binoculars alt="Binoculars" className={style.img} />
             <h2 className={style.h2}>Расследования</h2>
             <Link to="/">
               <p className={style.text}>Расследование убийств</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Расследование мошенничества</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Расследование фактов шантажа</p>
             </Link>
             <Link to="/">
               <p className={style.text}>Расследование мошенничества</p>
@@ -168,16 +234,7 @@ export default function ServicesPage() {
             </button>
           </section>
 
-          <section className={style.blokprotect}>
-            <Protect alt="Protect" className={style.img} />
-            <h2 className={style.h2}>Защита</h2>
-            <Link to="/">
-              <p className={style.text}>Поиск прослушки в квартире</p>
-            </Link>
-            <Link to="/">
-              <p className={style.text}>Помощь и защита при шантаже</p>
-            </Link>
-          </section>
+
 
           {/* <section className={style.blokjournalism}>
             <Journalism alt="Journalism" className={style.img} />

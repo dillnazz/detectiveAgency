@@ -74,16 +74,29 @@ export default function Footer() {
           <div className={style.blokmain3}>
             <p className={style.title}>Для частных лиц</p>
             <Link to="/">
-              <p className={style.p}>Сбор информации</p>
+              <p className={style.p}>Досье на человека</p>
             </Link>
             <Link to="/">
-              <p className={style.p}>Розыск</p>
+              <p className={style.p}>Сбор сведений по гражданским, и по уголовным делам</p>
             </Link>
             <Link to="/">
-              <p className={style.p}>Защита</p>
+              <p className={style.p}>Cбор информации о человеке
+
+</p>
             </Link>
             <Link to="/">
-              <p className={style.p}>Расследования</p>
+              <p className={style.p}>Наблюдение за подростком</p>
+            </Link>
+            <Link to="/">
+              <p className={style.p}>Установление образа жизни человека</p>
+            </Link>
+            <Link to="/">
+              <p className={style.p}>Организация слежки
+
+</p>
+            </Link>
+            <Link to="/">
+              <p className={style.p}>Поиск без вести пропавших граждан</p>
             </Link>
           </div>
 
@@ -92,9 +105,9 @@ export default function Footer() {
             {/* <Link to="/blog">
               <p className={style.p}>Блог</p>
             </Link> */}
-            <Link to="/reviews">
+            {/* <Link to="/reviews">
               <p className={style.p}>Отзывы</p>
-            </Link>
+            </Link> */}
             <Link to="/contacts">
               <p className={style.p}>Контакты</p>
             </Link>

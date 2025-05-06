@@ -45,7 +45,19 @@ export default function ModalServices(props) {
                   <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
                 </Link>
                  <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Сбор сведений по гражданским, и по уголовным делам</p>
+                  <p className={style.text}>Cбор информации о человеке</p>
+                </Link>
+                <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Установление образа жизни человека</p>
+                </Link>
+                <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Поиск должника</p>
+                </Link>
+                <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Поиск без вести пропавших граждан</p>
+                </Link>
+                <Link to="/" onClick={() => Check()}>
+                  <p className={style.text}>Наблюдение за подростком</p>
                 </Link>
                 <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Компромат на человека</p>
@@ -78,13 +90,13 @@ export default function ModalServices(props) {
 
               <section className={style.blokfamily}>
                 <Family alt="Family" className={style.img} />
-                <h2 className={style.h2}>Семейные вопросы</h2>
+                <h2 className={style.h2}>Проверка образа жизни ребенка</h2>
                 <Link to="/" onClick={() => Check()}>
-                  <p className={style.text}>Проверка образ жизни детей</p>
+                  <p className={style.text}>Проверка на верность</p>
                 </Link>
-                <Link to="/" onClick={() => Check()}>
+                {/* <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Проверить на верность</p>
-                </Link>
+                </Link> */}
               </section>
 
               <section className={style.blokbinoculars}>

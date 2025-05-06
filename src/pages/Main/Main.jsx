@@ -16,11 +16,11 @@ function Main() {
       <main>
         <MainBG />
         <About />
-        <Services />
+        {/* <Services /> */}
         <License />
         <FirstVisit />
         <Director />
-        <Review />
+        {/* <Review /> */}
         <Safety />
         <FAQ />
         <Blog />

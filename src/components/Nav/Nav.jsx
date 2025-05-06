@@ -112,7 +112,7 @@ const Nav = ({ open, closeMenu }) => {
               </div>
             </li>
           </Link>
-          <Link to="/reviews">
+          {/* <Link to="/reviews">
             <li
               className={style.li}
               onClick={() => {
@@ -125,7 +125,7 @@ const Nav = ({ open, closeMenu }) => {
                 <Vectorright />
               </div>
             </li>
-          </Link>
+          </Link> */}
           <Link to="/contacts">
             <li
               className={style.li}
