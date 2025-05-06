@@ -29,7 +29,7 @@ export default function Footer() {
 
               <div className={style.section}>
                 <img src={Time} alt="Time" className={style.icon} />
-                <p className={style.p}>Понедельник-суббота 8:00-18:00</p>
+                <p className={style.p}>Понедельник-суббота 8:00-22:00</p>
               </div>
 
               <div className={style.section}>
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
 
           <div className={style.blokmain2}>
-            <p className={style.title}>Для юридических лиц</p>
+            <p className={style.title}>Для юридических лиц:</p>
             <Link to="/">
               <p className={style.p}>Сбор сведений по гражданским, и по уголовным делам</p>{" "}
             </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
           </div>
 
           <div className={style.blokmain3}>
-            <p className={style.title}>Для частных лиц</p>
+            <p className={style.title}>Для частных лиц:</p>
             <Link to="/">
               <p className={style.p}>Досье на человека</p>
             </Link>

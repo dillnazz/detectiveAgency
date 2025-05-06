@@ -1,13 +1,14 @@
 import Safety from "../../components/Safety/Safety";
 import style from "./blogpage.module.scss";
 import { FaUserSecret, FaSearch, FaShieldAlt, FaUsers } from "react-icons/fa";
+import PhotoWorking from "../../assets/images/workPhoto.png";
 
 export default function AboutPage() {
   return (
     <div className={style.about}>
       <section className={style.hero}>
         <img
-          src="https://st.depositphotos.com/3280405/4479/i/450/depositphotos_44792795-stock-photo-business-people-showing-thumbs-up.jpg"
+          src={PhotoWorking}
           alt="Наша команда"
         />
         <p>
