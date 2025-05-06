@@ -179,15 +179,33 @@ export default function ServicesPage() {
               <p className={style.text}>Проверка на верность</p>
             </Link>
           </section>
-          
+
           <section className={style.blokprotect}>
             <Protect alt="Protect" className={style.img} />
-            <h2 className={style.h2}>Защита</h2>
+            <h2 className={style.h2}>Защита и безопасность</h2>
             <Link to="/">
-              <p className={style.text}>Поиск прослушки в квартире</p>
+              <p className={style.text}>Защита от шантажа </p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Помощь и защита при шантаже</p>
+              <p className={style.text}>Личная безопасность </p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Защита от произвола правоохранительных органов  </p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Профессиональный
+                поиск скрытых камер
+                и жучков</p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>Защита переговоров
+                от прослушки и жучков.
+                </p>
+            </Link>
+            <Link to="/">
+              <p className={style.text}>
+                Обеспечение конфиденциальности
+                и личный досмотр участников</p>
             </Link>
           </section>
 
@@ -206,7 +224,7 @@ export default function ServicesPage() {
               <p className={style.text}>Расследование фактов шантажа</p>
             </Link>
             <Link to="/">
-              <p className={style.text}>Расследование мошенничества</p>
+              <p className={style.text}>Расследования хищений</p>
             </Link>
           </section>
 

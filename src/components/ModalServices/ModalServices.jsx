@@ -165,7 +165,7 @@ export default function ModalServices(props) {
 
               <section className={style.blokprotect}>
                 <Protect alt="Protect" className={style.img} />
-                <h2 className={style.h2}>Защита</h2>
+                <h2 className={style.h2}>Защита и безопасность</h2>
                 <Link to="/" onClick={() => Check()}>
                   <p className={style.text}>Поиск прослушки в квартире</p>
                 </Link>
