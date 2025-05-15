@@ -8,7 +8,7 @@ export default function About() {
         <div className={style.left}>
           <h3 className={style.h3}>О компании</h3>
           <p className={style.p}>
-            <span className={style.partners}>Акула Групп</span> — это ведущая
+            <span className={style.partners}></span> — это ведущая
             компания, предоставляющая широкий спектр услуг в области
             расследований, корпоративной и коммерческой безопасности. Мы
             применяем передовые методы и технологии для решения самых

@@ -7,12 +7,6 @@ const Form = () => {
 
   return (
     <div className={style.container}>
-      <h1 className={style.title}>
-        {/* {title.split('').map((letter, index) => (
-          <span key={index}>{letter}</span>
-        ))} */}
-        Акула Групп
-      </h1>
       <p className={style.text}>
         Частная детективная деятельность. Готовы предоставить вам качественные услуги.
       </p>

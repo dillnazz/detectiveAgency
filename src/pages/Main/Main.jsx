@@ -19,7 +19,7 @@ function Main() {
         {/* <Services /> */}
         <License />
         <FirstVisit />
-        <Director />
+        {/* <Director /> */}
         {/* <Review /> */}
         <Safety />
         <FAQ />
